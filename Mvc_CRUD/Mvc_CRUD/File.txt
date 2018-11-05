@@ -20,3 +20,48 @@
 2018-11-01 23:12:18.8438|INFO|Mvc_CRUD.DAO.CRUD|Executando a consulta dos Funcionarios 
 2018-11-01 23:12:18.8438|INFO|Mvc_CRUD.DAO.CRUD|select FuncionarioId,Nome,Cidade,Departamento,Sexo from Funcionario
 2018-11-01 23:12:18.8438|INFO|Mvc_CRUD.DAO.CRUD|Executando o fechamento do Banco de dados
+2018-11-05 09:06:31.8847|INFO|Mvc_CRUD.DAO.CRUD|Executando a consulta dos Funcionarios 
+2018-11-05 09:06:31.9916|INFO|Mvc_CRUD.DAO.CRUD|select FuncionarioId,Nome,Cidade,Departamento,Sexo from Funcionario
+2018-11-05 09:06:31.9966|INFO|Mvc_CRUD.DAO.CRUD|Executando o fechamento do Banco de dados
+2018-11-05 09:06:46.7913|INFO|Mvc_CRUD.DAO.CRUD|Executando a Busca do Funcionario pelo ID
+2018-11-05 09:06:46.7913|INFO|Mvc_CRUD.DAO.CRUD|select FuncionarioId,Nome,Cidade,Departamento,Sexo from Funcionario where FuncionarioId = @FuncionarioID
+2018-11-05 09:06:46.7913|INFO|Mvc_CRUD.DAO.CRUD|Executando o fechamento do Banco de dados
+2018-11-05 09:06:53.2545|INFO|Mvc_CRUD.DAO.CRUD|Executando a Alteração do Funcionario
+2018-11-05 09:06:53.2855|INFO|Mvc_CRUD.DAO.Connection|Executando a seguinte instrução Update Funcionario set Nome = @Nome,Cidade = @Cidade,Departamento = @Departamento,Sexo = @Sexo  where FuncionarioId = @FuncionarioID
+2018-11-05 09:06:53.3226|INFO|Mvc_CRUD.DAO.Connection|Executando o fechamento do Banco de dados
+2018-11-05 09:06:53.3667|INFO|Mvc_CRUD.DAO.CRUD|Executando a consulta dos Funcionarios 
+2018-11-05 09:06:53.3667|INFO|Mvc_CRUD.DAO.CRUD|select FuncionarioId,Nome,Cidade,Departamento,Sexo from Funcionario
+2018-11-05 09:06:53.3667|INFO|Mvc_CRUD.DAO.CRUD|Executando o fechamento do Banco de dados
+2018-11-05 09:06:55.7978|INFO|Mvc_CRUD.DAO.CRUD|Executando a Busca do Funcionario pelo ID
+2018-11-05 09:06:55.7978|INFO|Mvc_CRUD.DAO.CRUD|select FuncionarioId,Nome,Cidade,Departamento,Sexo from Funcionario where FuncionarioId = @FuncionarioID
+2018-11-05 09:06:55.7978|INFO|Mvc_CRUD.DAO.CRUD|Executando o fechamento do Banco de dados
+2018-11-05 09:07:00.8225|INFO|Mvc_CRUD.DAO.CRUD|Executando a Busca do Funcionario pelo ID
+2018-11-05 09:07:00.8268|INFO|Mvc_CRUD.DAO.CRUD|select FuncionarioId,Nome,Cidade,Departamento,Sexo from Funcionario where FuncionarioId = @FuncionarioID
+2018-11-05 09:07:00.8268|INFO|Mvc_CRUD.DAO.CRUD|Executando o fechamento do Banco de dados
+2018-11-05 09:07:00.8438|INFO|Mvc_CRUD.DAO.CRUD|Executando a Busca do Funcionario pelo ID
+2018-11-05 09:07:00.8438|INFO|Mvc_CRUD.DAO.CRUD|select FuncionarioId,Nome,Cidade,Departamento,Sexo from Funcionario where FuncionarioId = @FuncionarioID
+2018-11-05 09:07:00.8438|INFO|Mvc_CRUD.DAO.CRUD|Executando o fechamento do Banco de dados
+2018-11-05 09:07:04.9943|INFO|Mvc_CRUD.DAO.CRUD|Executando a Alteração do Funcionario
+2018-11-05 09:07:04.9953|INFO|Mvc_CRUD.DAO.Connection|Executando a seguinte instrução Update Funcionario set Nome = @Nome,Cidade = @Cidade,Departamento = @Departamento,Sexo = @Sexo  where FuncionarioId = @FuncionarioID
+2018-11-05 09:07:05.1093|INFO|Mvc_CRUD.DAO.Connection|Executando o fechamento do Banco de dados
+2018-11-05 09:07:05.1644|INFO|Mvc_CRUD.DAO.CRUD|Executando a consulta dos Funcionarios 
+2018-11-05 09:07:05.1644|INFO|Mvc_CRUD.DAO.CRUD|select FuncionarioId,Nome,Cidade,Departamento,Sexo from Funcionario
+2018-11-05 09:07:05.1644|INFO|Mvc_CRUD.DAO.CRUD|Executando o fechamento do Banco de dados
+2018-11-05 09:07:24.9845|INFO|Mvc_CRUD.DAO.CRUD|Executando a Busca do Funcionario pelo ID
+2018-11-05 09:07:24.9845|INFO|Mvc_CRUD.DAO.CRUD|select Max(FuncionarioId) FuncionarioId from Funcionario 
+2018-11-05 09:07:25.0135|INFO|Mvc_CRUD.DAO.CRUD|Executando o fechamento do Banco de dados
+2018-11-05 09:07:25.0135|INFO|Mvc_CRUD.DAO.CRUD|Executando a Inclusão do Funcionario
+2018-11-05 09:07:25.0135|INFO|Mvc_CRUD.DAO.Connection|Executando a seguinte instrução Insert into Funcionario(FuncionarioId,Nome,Cidade,Departamento,Sexo)  values(@FuncionarioId, @Nome, @Cidade, @Departamento, @Sexo)
+2018-11-05 09:07:25.1622|INFO|Mvc_CRUD.DAO.Connection|Executando o fechamento do Banco de dados
+2018-11-05 09:07:25.2272|INFO|Mvc_CRUD.DAO.CRUD|Executando a consulta dos Funcionarios 
+2018-11-05 09:07:25.2272|INFO|Mvc_CRUD.DAO.CRUD|select FuncionarioId,Nome,Cidade,Departamento,Sexo from Funcionario
+2018-11-05 09:07:25.2272|INFO|Mvc_CRUD.DAO.CRUD|Executando o fechamento do Banco de dados
+2018-11-05 09:07:30.2595|INFO|Mvc_CRUD.DAO.CRUD|Executando a Busca do Funcionario pelo ID
+2018-11-05 09:07:30.2616|INFO|Mvc_CRUD.DAO.CRUD|select FuncionarioId,Nome,Cidade,Departamento,Sexo from Funcionario where FuncionarioId = @FuncionarioID
+2018-11-05 09:07:30.2616|INFO|Mvc_CRUD.DAO.CRUD|Executando o fechamento do Banco de dados
+2018-11-05 09:07:35.2045|INFO|Mvc_CRUD.DAO.CRUD|Executando a Alteração do Funcionario
+2018-11-05 09:07:35.2045|INFO|Mvc_CRUD.DAO.Connection|Executando a seguinte instrução Update Funcionario set Nome = @Nome,Cidade = @Cidade,Departamento = @Departamento,Sexo = @Sexo  where FuncionarioId = @FuncionarioID
+2018-11-05 09:07:35.2226|INFO|Mvc_CRUD.DAO.Connection|Executando o fechamento do Banco de dados
+2018-11-05 09:07:35.2554|INFO|Mvc_CRUD.DAO.CRUD|Executando a consulta dos Funcionarios 
+2018-11-05 09:07:35.2554|INFO|Mvc_CRUD.DAO.CRUD|select FuncionarioId,Nome,Cidade,Departamento,Sexo from Funcionario
+2018-11-05 09:07:35.2554|INFO|Mvc_CRUD.DAO.CRUD|Executando o fechamento do Banco de dados
