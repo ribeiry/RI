@@ -133,7 +133,15 @@ namespace Mvc_CRUD.DAO
                     {
                         if (registro.HasRows & registro.Read())
                         {
-                            id = Convert.ToInt32(registro["FuncionarioId"].ToString().Trim());
+                            if(Empty(registro["FuncionarioId"].ToString().Trim()))
+                            {
+                                id = 0;
+                            }
+                            else
+                            {
+                                id = Convert.ToInt32(registro["FuncionarioId"].ToString().Trim());
+                            }   
+                             
                             
                         }
                     }
